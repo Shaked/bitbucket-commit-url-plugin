@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.rg.stash.plugin.commit-url</groupId>
     <artifactId>commit-url-plugin</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <organization>
-        <name>Example Company</name>
-        <url>http://www.example.com/</url>
+        <name>Shaked Klein Orbach</name>
+        <url>http://www.shakedos.com/</url>
     </organization>
     <name>commit-url-plugin</name>
-    <description>This is the com.rg.stash.plugin.commit-url:commit-url-plugin plugin for Atlassian Stash.</description>
+    <description>Stash plugin that prints the relevant stash URL after git push.</description>
     <packaging>atlassian-plugin</packaging>
     <dependencyManagement>
         <dependencies>
