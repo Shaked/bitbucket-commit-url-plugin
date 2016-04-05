@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.rg.stash.plugin.commit-url</groupId>
     <artifactId>commit-url-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <organization>
         <name>Shaked Klein Orbach</name>
         <url>http://www.shakedos.com/</url>
     </organization>
     <name>commit-url-plugin</name>
-    <description>Stash plugin that prints the relevant stash URL after git push.</description>
+    <description>This plugin shows Bitbucket\Stash's commit URL after a `git push` in order to speed up the process of sharing the commit URL.</description>
     <packaging>atlassian-plugin</packaging>
     <dependencyManagement>
         <dependencies>
