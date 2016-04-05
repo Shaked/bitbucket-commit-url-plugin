@@ -1,6 +1,6 @@
 # Description
 
-A quicker way to get Stash's commit URL.
+This plugin shows Bitbucket\Stash's commit URL after a `git push` in order to speed up the process of sharing the commit URL.
 
 ## Example
 
