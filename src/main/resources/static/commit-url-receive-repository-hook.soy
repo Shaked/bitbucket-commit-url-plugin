@@ -1,0 +1,15 @@
+{namespace com.rg.stash.plugin.commiturl.hook.commiturlreceiverepositoryhook}
+
+/**
+ * @param? config
+ * @param? errors
+ */
+{template .view}
+    {call aui.form.textField}
+        {param id: 'url' /}
+        {param value: $config ? $config['url'] : null /}
+        {param labelContent: 'url'  /}
+        {param descriptionText: 'Some description for url' /}
+        {param errorTexts: $errors ? $errors['url'] : null /}
+    {/call}
+{/template}
